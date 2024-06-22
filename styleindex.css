@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(176, 128, 39);
+}
+h1{
+    display: flex;
+    height: 80px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    align-items: center;
+    padding-left: 15px;
+    color: antiquewhite;
+}
+body{
+    background-image: url("big\ bg.jpg");
+    background-size: cover;
+}
+img:hover{
+    animation: animate 1.25s ease-in-out;
+}
+@keyframes animate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+h4{
+    color: whitesmoke;
+    font-size: larger;
+}
+p{
+    margin-top: 25px;
+    color: whitesmoke;
+    font-size: larger;
+    display: inline-block;
+    width: 500px;
+}
